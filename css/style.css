@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+   background-image: url(pexels-mohamed-almari-1485894.jpg);
+  background-size: cover;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container div {
+    margin-bottom: 15px;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container button {
+    width: calc(100% - 22px); /* Subtracting padding and border widths */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #0056b3;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container div {
+    margin-bottom: 15px;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container button {
+    width: calc(100% - 22px); /* Subtracting padding and border widths */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: blue; /* Farge på teksten */
+    text-decoration: none; /* Fjerner understrekning */
+    font-weight: bold; /* Gjør teksten fet */
+    font-family: Arial, sans-serif; /* Setter skrifttypen */
+     justify-content: space-around;
+}
+a:hover {
+    color: darkblue; /* Farge på teksten ved hover */
+}
