@@ -36,12 +36,12 @@ window.signup = function(e){
    createUserWithEmailAndPassword(auth, obj.email,obj.password)
    .then(function(success){
        alert("signup successfully")
-       window.location.href = "UserPage.html";
+       window.location.href = "tos.html";
    })
    .catch(function(err){
        alert("error" + err)
-   })
+   }) 
    console.log(obj)
-};
+}; 
 
 

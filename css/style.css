@@ -1,99 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-   background-image: url(pexels-mohamed-almari-1485894.jpg);
-  background-size: cover;
+    background-color: #f8f9fa;
 }
-
 .container {
-    width: 300px;
-    margin: 50px auto;
+    max-width: 400px;
+    margin: 100px auto;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-.container div {
-    margin-bottom: 15px;
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
 }
-
-.container input[type="text"],
-.container input[type="password"],
-.container button {
-    width: calc(100% - 22px); /* Subtracting padding and border widths */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
     padding: 10px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box; /* Ensures padding and border are included in width */
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-
-
-
 button {
+    width: 100%;
+    padding: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    border-radius: 3px;
+    transition: background-color 0.3s ease;
 }
-
-button {
+button:hover {
     background-color: #0056b3;
 }
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 300px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.container div {
-    margin-bottom: 15px;
-}
-
-.container input[type="text"],
-.container input[type="password"],
-.container button {
-    width: calc(100% - 22px); /* Subtracting padding and border widths */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box; /* Ensures padding and border are included in width */
-}
-
-.btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
 a {
-    color: blue; /* Farge på teksten */
-    text-decoration: none; /* Fjerner understrekning */
-    font-weight: bold; /* Gjør teksten fet */
-    font-family: Arial, sans-serif; /* Setter skrifttypen */
-     justify-content: space-around;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 a:hover {
-    color: darkblue; /* Farge på teksten ved hover */
+    color: #0056b3;
 }
+
+.logo{
+    font-family: Archivo Black;
+
+    }

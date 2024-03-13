@@ -33,7 +33,7 @@ window.login= function(e) {
       var aaaa =  (success.user.uid);
       localStorage.setItem("uid",aaaa)
       console.log(aaaa)
-      window.location.href = "UserPage.html";
+      window.location.href = "tos.html";
      // localStorage.setItem(success,user,uid)
       
     })
