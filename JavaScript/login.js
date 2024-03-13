@@ -28,8 +28,7 @@ window.login= function(e) {
   };
 
   signInWithEmailAndPassword(auth, obj.email, obj.password)
-    .then(function (success) {
-      alert("logined Successfully")
+    .then(function (success) { 
       var aaaa =  (success.user.uid);
       localStorage.setItem("uid",aaaa)
       console.log(aaaa)

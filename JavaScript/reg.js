@@ -35,7 +35,6 @@ window.signup = function(e){
    }
    createUserWithEmailAndPassword(auth, obj.email,obj.password)
    .then(function(success){
-       alert("signup successfully")
        window.location.href = "tos.html";
    })
    .catch(function(err){
