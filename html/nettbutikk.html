@@ -5,56 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Store</title>
     <link rel="stylesheet" href="/css/nettbutikk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Online Store</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
+    <header style="background-color:#0f0e17">
+    <div class="container" >
+        <h1 style="font-family: Archivo Black;">Super Bazaar</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Clothing</a></li>
+                
+            </ul>
+           
+        </nav>
+    </div>
+</header>
+
+
+<div class="hero1" class="hidden">
+    <div class="info">
+    <h1 style="color: #000000; ;">Retrovibber En gammel flamme</h1>
+    <p>Forelsk deg på nytt i sneakers og løpesko inspirert av gamle ikoner.</p>
+    </div>
+    <img src="https://img01.ztat.net/article/spp-media-p1/1926694d961647bc8f0c679d5e6bc178/8c285b1ecd66451293a9df4da6f1aeef.jpg?imwidth=693" style="width: 100; height: auto; " alt="">
+  </div>
 
 
     <section id="products">
         <div class="container">
             <div class="product">
-                <img src="" alt="Product 1">
-                <h3></h3>
-                <p>0</p>
-                <button onclick="addToCart('Product 1',  0)">Add to Cart</button>
+                <img src="https://img01.ztat.net/article/spp-media-p1/343b4124b39841a2ab818ba69741e7fc/f7bb7473f5f046ddba93b9076d27d737.jpg?imwidth=1800&filter=packshot" alt="Product 1">
+                <h3>addidas</h3>
+                <p>$55</p>
+                <button onclick="addToCart('addidas',  55)">Add to Cart</button>
             </div>
             <div class="product">
-                <img src="" alt="Product 2">
-                <h3></h3>
-                <p>$1</p>
-                <button onclick="addToCart('Product 2', 1)">Add to Cart</button>
+                <img src="https://img01.ztat.net/article/spp-media-p1/d837ae048af641c698a3c748272678c2/b362f29b8b2d49aea3077166cf86cb91.jpg?imwidth=1800&filter=packshot" alt="Product 2">
+                <h3>nike</h3>
+                <p>$69</p>
+                <button onclick="addToCart('nike', 69)">Add to Cart</button>
             </div>
             <div class="product">
-                <img src="" alt="Product 2">
-                <h3></h3>
-                <p>$5</p>
-                <button onclick="addToCart('Product 2', 5)">Add to Cart</button>
+                <img src="https://img01.ztat.net/article/spp-media-p1/810e06a7f4284f81b7916af25772b0fa/7f09c0f35ac148e49691025f488769ae.jpg?imwidth=1800" alt="Product 2">
+                <h3>addidas</h3>
+                <p>$60</p>
+                <button onclick="addToCart('nike', 60)">Add to Cart</button>
             </div>
             <div class="product">
-                <img src="" alt="Product 2">
-                <h3></h3>
-                <p></p>
-                <button onclick="addToCart('Product 2', 2)">Add to Cart</button>
+                <img src="https://img01.ztat.net/article/spp-media-p1/c9488995802a3f0f867bc6e53df2cdd5/a641f45a12aa4a359135149edf334682.jpg?imwidth=1800" alt="Product 2">
+                <h3>nike</h3>
+                <p>$200</p>
+                <button onclick="addToCart('nike', 200)">Add to Cart</button>
             </div>
             <div class="product">
-                <img src="" alt="Product 2">
-                <h3> </h3>
-                <p></p>
-                <button onclick="addToCart('Product 2', 2)">Add to Cart</button>
+                <img src="https://img01.ztat.net/article/spp-media-p1/cf31ff4020fe4f5c9fd2e9b3d3d3c7bf/216e23724b7940c0b0d560daf836cc6c.jpg?imwidth=300&filter=packshot" alt="Product 2">
+                <h3>puma</h3>
+                <p>$69</p>
+                <button onclick="addToCart('puma', 100)">Add to Cart</button>
             </div>
-
+            <div class="product">
+                <img src="https://img01.ztat.net/article/spp-media-p1/9f74ccc0336d44f0bce6eaf4f21e3795/26b1cffb08594af3984cf0f6b1db57f5.jpg?imwidth=300" alt="Product 2">
+                <h3>nike</h3>
+                <p>$50</p>
+                <button onclick="addToCart('addidas', 50 )">Add to Cart</button>
+            </div>
+        
         </div>
     </section>
 

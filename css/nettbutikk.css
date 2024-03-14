@@ -4,18 +4,20 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure the body fills the viewport height */
+    background-color: #0f0e17;
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+   
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
+    background:#277bcc;
+    color:  #277bcc;
+    padding: 50px 0;
 }
 
 header h1 {
@@ -46,7 +48,7 @@ section#products {
     float: left;
     width: 30%;
     margin: 0 1.5%;
-    background: #f4f4f4;
+   
     padding: 20px;
     box-sizing: border-box;
 }
@@ -116,3 +118,42 @@ img{
     height: 500px;
     width: auto;
 }
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.hero1 {
+    margin-top: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 100px;
+    background-color: #ff8906; 
+  }
+
+   
+ section{
+    color: #fff;
+  }
